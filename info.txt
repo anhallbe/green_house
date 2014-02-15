@@ -1,0 +1,11 @@
+Information om kod bland bilagorna:
+
+RedHouse3 - Projektnamn för koden till Android-applikationen GreenHouse.
+
+Schedule - Projektnamn för koden till serverprogrammet som körs på GreenBox (Raspberry Pi).
+
+JULA.py - Skript som använder sig av Raspberry Pi GPIO för att kommunicera med strömbrytare från diverse tillverkare (JULA, NEXA, mm).
+
+LCD.py - Skript som skriver ut information på LCD.
+
+Sensor.py - Skript som frågar efter sensorvärden.

@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">GreenHouse</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Remote</string>
+    <string name="title_section2">Sensors</string>
+    <string name="title_section3">Rules</string>
+    <string name="title_section4">Calendar</string>
+    <string name="addSensor_type_spinnerPrompt">Type</string>
+    <string name="addDevice_brand_spinnerPrompt">Brand</string>
+    
+</resources>

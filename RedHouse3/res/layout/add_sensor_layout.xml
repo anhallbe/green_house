@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/Theme.Sherlock.Light"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<LinearLayout
+	    style="@style/Theme.Greenhouse" 
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:orientation="horizontal" 
+	    android:weightSum="10"
+	    >
+	
+	    <EditText
+	        android:id="@+id/sensorName_edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="4"
+	        android:hint="Sensor name"
+	        />
+
+	    <Spinner
+	        style="@style/SpinnerGreenHouse" 
+		    android:id="@+id/type_spinner"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:hint="Sensor name"
+	        android:prompt="@string/addSensor_type_spinnerPrompt" 
+	        android:layout_weight="6"
+	        />
+	
+	</LinearLayout>
+
+	<Button
+	    style="@style/Theme.Greenhouse" 
+	    android:id="@+id/sensorSubmit_button"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Add"
+	    android:visibility="visible" />
+	
+</LinearLayout>

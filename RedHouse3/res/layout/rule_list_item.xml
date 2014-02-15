@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:padding="5dp" >
+    
+    <TextView 
+        android:id="@+id/rule_description"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="När jag åker till jobbet."
+        android:gravity="center_vertical"
+        android:layout_weight="1"/>
+    
+    <TextView 
+        android:id="@+id/rule_affected_devices"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Device1 -  ON\nDevice2 - OFF\nDevice3 - OFF\nDevice4 -  ON"
+        android:layout_weight="1"
+        android:gravity="right" />"
+    
+
+</LinearLayout>

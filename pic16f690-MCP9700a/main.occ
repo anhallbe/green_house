@@ -1,0 +1,29 @@
+CC5X Version 3.4H, Copyright (c) B Knudsen Data, Norway 1992-2012
+ --> FREE edition, 8-16 bit int, 24 bit float, 32k code, reduced optim.
+main.c:
+ 22. Apr 2013  18:50
+ Chip = 16F690
+Warning main.c 384: Local variables and parameters in uncalled functions are not allocated (8)
+ (The application contains non-library functions that are not called. Local
+ variables in these functions (option -wU) are not allocated to save space)
+ RAM : -------- -------- -------- -------- ======== ======== =======* ********
+  40h: ******** ******** ******** ******** ******** ******** ******** ********
+  80h: -------- -------- -------- -------- ******** ******** ******** ********
+  C0h: ******** ******** ******** ******** ******** ******** -------- --------
+ 100h: -------- -------- -------- -------- ******** ******** ******** ********
+ 140h: ******** ******** ******** ******** ******** ******** -------- --------
+RAM usage: 23 bytes (23 local), 233 bytes free
+Warning main.c 309: Duplicate inline division (math library may save code, option -wi removes warning)
+Warning main.c 311: Duplicate inline division (math library may save code, option -wi removes warning)
+Warning main.c 354: Duplicate inline division (math library may save code, option -wi removes warning)
+Warning main.c 356: Duplicate inline division (math library may save code, option -wi removes warning)
+Warning main.c 357: Duplicate inline division (math library may save code, option -wi removes warning)
+Warning main.c 359: Duplicate inline division (math library may save code, option -wi removes warning)
+ Optimizing - removed 21 instructions (-2 %)
+ File 'main.asm'
+ File 'main.occ'
+ File 'main.hex'
+ Codepage 0 has  841 word(s) :  41 %
+ Codepage 1 has    0 word(s) :   0 %
+Total of 841 code words (20 %)
+ * Estimated CODE SIZE of full optimization: 645 code words (-23 %)
